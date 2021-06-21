@@ -15,6 +15,7 @@ default = ["tokio-runtime"]
 tokio-runtime = ["tokio", "tokio-tls", "async-tungstenite/tokio-runtime", "async-tungstenite/tokio-tls"]
 async-std-runtime = ["async-std", "async-tls", "async-tungstenite/async-std-runtime", "async-tungstenite/async-tls"]
 # async-std-native-tls = ["async-std", "async-native-tls", "async-tungstenite/async-native-tls"]
+static = ["isahc/static-ssl", "isahc/static-curl"]
 
 [dependencies]
 # Serde dependencies
